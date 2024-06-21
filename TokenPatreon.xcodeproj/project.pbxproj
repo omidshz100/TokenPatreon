@@ -11,6 +11,7 @@
 		D9F8ED042C25925D00D109E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F8ED032C25925D00D109E5 /* ContentView.swift */; };
 		D9F8ED062C25925E00D109E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F8ED052C25925E00D109E5 /* Assets.xcassets */; };
 		D9F8ED092C25925E00D109E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F8ED082C25925E00D109E5 /* Preview Assets.xcassets */; };
+		D9F8ED112C25983000D109E5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F8ED102C25983000D109E5 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D9F8ED032C25925D00D109E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D9F8ED052C25925E00D109E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9F8ED082C25925E00D109E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9F8ED102C25983000D109E5 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		D9F8ED002C25925D00D109E5 /* TokenPatreon */ = {
 			isa = PBXGroup;
 			children = (
+				D9F8ED0F2C25981E00D109E5 /* Extensions */,
 				D9F8ED012C25925D00D109E5 /* TokenPatreonApp.swift */,
 				D9F8ED032C25925D00D109E5 /* ContentView.swift */,
 				D9F8ED052C25925E00D109E5 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				D9F8ED082C25925E00D109E5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D9F8ED0F2C25981E00D109E5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D9F8ED102C25983000D109E5 /* Color.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				D9F8ED042C25925D00D109E5 /* ContentView.swift in Sources */,
 				D9F8ED022C25925D00D109E5 /* TokenPatreonApp.swift in Sources */,
+				D9F8ED112C25983000D109E5 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

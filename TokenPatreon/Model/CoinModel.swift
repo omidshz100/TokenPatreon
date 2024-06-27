@@ -66,10 +66,10 @@ import SwiftUI
 //
 //   let welcome = try? JSONDecoder().decode(Welcome.self, from: jsonData)
 
-struct Welcome {
-    let id, symbol, name: String?
-    let image: String?
-    let currentPrice: Double?
+struct CoinModel : Identifiable, Codable  {
+    let id, symbol, name: String
+    let image: String
+    let currentPrice: Double
     let marketCap, marketCapRank, fullyDilutedValuation, totalVolume: Int?
     let high24H, low24H, priceChange24H, priceChangePercentage24H: Double?
     let marketCapChange24H: Int?

@@ -79,7 +79,6 @@ struct Welcome {
     let athDate: String?
     let atl, atlChangePercentage: Double?
     let atlDate: String?
-    let roi: NSNull?
     let lastUpdated: String?
     let sparklineIn7D: SparklineIn7D?
     let priceChangePercentage24HInCurrency: Double?

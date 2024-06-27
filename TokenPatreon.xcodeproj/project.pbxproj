@@ -7,20 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9CE6A552C2D4C7B00111AF9 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CE6A542C2D4C7B00111AF9 /* CircleButtonAnimationView.swift */; };
 		D9F8ED022C25925D00D109E5 /* TokenPatreonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F8ED012C25925D00D109E5 /* TokenPatreonApp.swift */; };
 		D9F8ED042C25925D00D109E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F8ED032C25925D00D109E5 /* ContentView.swift */; };
 		D9F8ED062C25925E00D109E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F8ED052C25925E00D109E5 /* Assets.xcassets */; };
 		D9F8ED092C25925E00D109E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F8ED082C25925E00D109E5 /* Preview Assets.xcassets */; };
 		D9F8ED112C25983000D109E5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F8ED102C25983000D109E5 /* Color.swift */; };
+		D9F8ED172C259F7700D109E5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F8ED162C259F7700D109E5 /* HomeView.swift */; };
+		D9F8ED1B2C2B59D000D109E5 /* CircleButtinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F8ED1A2C2B59D000D109E5 /* CircleButtinView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D9CE6A542C2D4C7B00111AF9 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
 		D9F8ECFE2C25925D00D109E5 /* TokenPatreon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TokenPatreon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F8ED012C25925D00D109E5 /* TokenPatreonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenPatreonApp.swift; sourceTree = "<group>"; };
 		D9F8ED032C25925D00D109E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D9F8ED052C25925E00D109E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9F8ED082C25925E00D109E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D9F8ED102C25983000D109E5 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		D9F8ED162C259F7700D109E5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D9F8ED1A2C2B59D000D109E5 /* CircleButtinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtinView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,7 @@
 		D9F8ED002C25925D00D109E5 /* TokenPatreon */ = {
 			isa = PBXGroup;
 			children = (
+				D9F8ED122C259F4400D109E5 /* Core */,
 				D9F8ED0F2C25981E00D109E5 /* Extensions */,
 				D9F8ED012C25925D00D109E5 /* TokenPatreonApp.swift */,
 				D9F8ED032C25925D00D109E5 /* ContentView.swift */,
@@ -76,6 +83,56 @@
 				D9F8ED102C25983000D109E5 /* Color.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D9F8ED122C259F4400D109E5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D9F8ED182C2B598200D109E5 /* Components */,
+				D9F8ED132C259F4800D109E5 /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D9F8ED132C259F4800D109E5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D9F8ED152C259F5B00D109E5 /* ViewModels */,
+				D9F8ED142C259F5400D109E5 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D9F8ED142C259F5400D109E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9F8ED162C259F7700D109E5 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D9F8ED152C259F5B00D109E5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D9F8ED182C2B598200D109E5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D9F8ED192C2B59B800D109E5 /* CircleButton */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D9F8ED192C2B59B800D109E5 /* CircleButton */ = {
+			isa = PBXGroup;
+			children = (
+				D9F8ED1A2C2B59D000D109E5 /* CircleButtinView.swift */,
+				D9CE6A542C2D4C7B00111AF9 /* CircleButtonAnimationView.swift */,
+			);
+			path = CircleButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +206,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9F8ED042C25925D00D109E5 /* ContentView.swift in Sources */,
+				D9F8ED172C259F7700D109E5 /* HomeView.swift in Sources */,
 				D9F8ED022C25925D00D109E5 /* TokenPatreonApp.swift in Sources */,
+				D9F8ED1B2C2B59D000D109E5 /* CircleButtinView.swift in Sources */,
 				D9F8ED112C25983000D109E5 /* Color.swift in Sources */,
+				D9CE6A552C2D4C7B00111AF9 /* CircleButtonAnimationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

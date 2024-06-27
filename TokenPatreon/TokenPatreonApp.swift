@@ -11,7 +11,10 @@ import SwiftUI
 struct TokenPatreonApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView{
+                ContentView()
+                    .toolbar(.hidden)
+            }
         }
     }
 }

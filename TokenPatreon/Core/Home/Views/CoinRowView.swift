@@ -18,14 +18,10 @@ struct CoinRowView: View {
                 centerColumn
             }
             rightColumn
-                
         }
         .font(.subheadline )
-
     }
 }
-
-
 struct CoinRowView_Previews: PreviewProvider{
     static var previews: some View{
         Group{
@@ -38,10 +34,7 @@ struct CoinRowView_Previews: PreviewProvider{
         }
     }
 }
-
-
 extension CoinRowView {
-    
     private var leftColumn: some View {
         HStack{
             Text("\(coin.rank)")
@@ -64,7 +57,6 @@ extension CoinRowView {
         }
         .foregroundStyle(Color.them.accent)
     }
-    
     private var rightColumn: some View {
         VStack(alignment: .trailing){
             Text(coin.currentPrice.asCurrencyWith6Decimals())

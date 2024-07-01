@@ -12,7 +12,6 @@ struct ContentView: View {
         ZStack{
             Color.them.background
                 .ignoresSafeArea()
-            
             VStack(spacing: 40) {
                 Text("Accent Color")
                     .foregroundStyle(Color.them.accent)

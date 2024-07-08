@@ -9,12 +9,14 @@ import SwiftUI
 
 @main
 struct TokenPatreonApp: App {
+    @StateObject var vm = HomeViewModel()
     var body: some Scene {
         WindowGroup {
             NavigationView{
-                ContentView()
+                HomeView()
                     .toolbar(.hidden)
             }
+            .environmentObject(vm)
         }
     }
 }

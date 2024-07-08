@@ -18,6 +18,10 @@ struct HomeView: View {
                 /// pase the variable hew
                 homeHeader
                     .padding(.horizontal)
+                List{
+                    CoinRowView(coin: DeveloperPreview.instance.coin, showHoldingColumn: false)
+                }
+                .listStyle(.plain)
                 Spacer(minLength: 0)
             }
         }
